@@ -8,7 +8,7 @@ import com.silence.spring.cloud.feign.hystrix.FeignHystrix;
 @FeignClient(value = "provider", fallback = FeignHystrix.class)
 public interface FeignInterface {
 
-    @RequestMapping("/getInfo")//修改后,git提交
+    @RequestMapping("/getInfo")//修改后,git提交111
     public String getInfo();
 
 }
